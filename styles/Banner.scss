@@ -1,0 +1,59 @@
+.banner{
+    background-size: cover;
+    background-position: center;
+    padding: 110px 0 60px;
+    .banner-container{
+        max-width:920px;
+        margin: 0 auto;
+            .title{
+                font-size: 52px;
+                font-weight: 600;
+                line-height: 1.2em;
+                text-align: center;
+                color: #030C1F;
+                letter-spacing: -2.34px;
+                max-width: 600px;
+                margin: 0 auto;
+                span{
+                    color: #25aae1;
+                }
+            }
+            .subtext{
+                margin: 30px auto 50px;
+                text-align: center;
+                color: #1e1b1b;
+                font-size: 19px;
+                font-weight: 500;
+                max-width: 730px;
+            }
+            .global-btn{
+                margin: 0 auto;
+                display: block;
+                font-size: 18px;
+                margin-bottom: 75px;
+            }
+        .featured-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 850px;
+            margin: 0 auto;
+            p{
+                font-size: 20px;
+                font-weight: 500;
+                color: #030C1F
+            }
+            .images-wrapper{
+                border-left:1px solid #1e1b1b;
+                padding-left: 30px;
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                .f-image{
+                    width: auto;
+                    height: 35px;
+                }
+            }
+        }
+    }
+}
